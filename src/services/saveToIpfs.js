@@ -4,7 +4,7 @@ import { create } from 'ipfs-http-client';
 const saveToIpfs = async (file) => {
   
     // const ipfs =  create({ host: 'localhost', port: '5001', protocol: 'http' });
-    const ipfs = createClient({ host: "ipfs.infura.io", port: 5001, protocol: "https" });
+    const ipfs = create({ host: "ipfs.infura.io", port: 5001, protocol: "https" });
 
   console.log('saveToIpfs')
   console.log(file);
