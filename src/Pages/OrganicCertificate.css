@@ -1,0 +1,20 @@
+
+#pdfTable{
+    display: block;
+    text-align: center;
+    margin: 50px;
+    padding: auto;
+  }
+  #content{
+    padding-top: 50px;
+  }
+  #standardLogo{
+    /* padding: 20px; */
+  }
+label{
+  font-weight: 690;
+}
+.btnrow{
+  padding: 50px;
+
+}
